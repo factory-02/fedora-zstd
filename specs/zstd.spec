@@ -32,7 +32,7 @@ Zstd, short for Zstandard, is a fast lossless compression algorithm,
 targeting real-time compression scenarios at zlib-level compression ratio.
 
 # -------------------------------------------------------------------------------------------------------------------- #
-# Package:
+# Package: libzstd
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %package -n lib%{name}
@@ -42,7 +42,7 @@ Summary:                        Zstd shared library
 Zstandard compression shared library.
 
 # -------------------------------------------------------------------------------------------------------------------- #
-# Package:
+# Package: libzstd-devel
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %package -n lib%{name}-devel
